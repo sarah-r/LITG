@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Project Cost Calculator</title>
+    </head>
+<body>
+
+<h1>Get a pattern--and get ready to list your materials!</h1>
+
+<form action="/calculator" method="POST">
+    A Greeting: <input type="text" name="greet">
+    <br/>
+    Your Name: <input type="text" name="name">
+    <br/>
+    Yarn: <input type="text" name="yarn">
+    <br/>
+    Yarn weight: 
+    <select name="weight">
+  <option value="superfine">superfine</option>
+  <option value="fine">fine</option>
+  <option value="sport">sport</option>
+  <option value="worsted">worsted</option>
+</select> 
+    <br/>
+    Number of skeins, balls, or hanks: <input type="text" name="number">
+    <br/>
+    Cost per ball: <input type="text" name="number">
+    <br/>
+    Do you need needles? <input type="checkbox" name="needles" value="off">
+    <br/>
+    Do you need hooks? <input type="checkbox" name="hooks" value="off">
+    <br/>
+    Do you need buttons? <input type="checkbox" name="hooks" value="off">
+    <br/>
+    <input type="submit">
+</form>
+
+</body>
+</html>
